@@ -1,6 +1,7 @@
 {
-  "name": "clicky-game",
+  "name": "clicky-game-client",
   "version": "0.1.0",
+  "description": "Clicky Game is a memory game that uses React",
   "private": true,
   "proxy": "http://localhost:3001/",
   "dependencies": {
