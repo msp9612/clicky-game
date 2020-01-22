@@ -21,7 +21,7 @@ const renderApp = () =>
 		document.getElementById('root')
 	);
 
-// Hot module reloading
+// Hot module reloading for app
 if (process.env.NODE_ENV !== 'production' && module.hot) {
 	module.hot.accept('./App', renderApp);
 }
