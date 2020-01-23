@@ -10,9 +10,8 @@
     width: calc(100vh - 200px);
     display: grid;
     justify-content: center;
-    align-content: center;
-    grid-template-columns: repeat(3, 33%);
-    grid-template-rows: repeat(3, 33%);
+    grid-template-columns: repeat(5, 33%);
+    grid-template-rows: repeat(5, 33%);
 
     .tile {
       align-self: auto;
