@@ -2,6 +2,7 @@
 /* -------------------------------*/
 
 import React from 'react';
+import { connect } from 'react-redux';
 import { Navbar } from 'react-bootstrap';
 
 /* Global variables and instances */
@@ -17,3 +18,5 @@ const Nav = props => {
 
 /* MAIN */
 /* -------------------------------*/
+
+export default connect()(Nav);
