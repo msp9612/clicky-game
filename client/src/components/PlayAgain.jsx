@@ -46,7 +46,7 @@ export default connect(
 	// mapStateToProps
 	state => ({
 		score: state.gamePlay.score,
-		tileCount: state.gamePlay.tileSet.tiles.length,
+		tileCount: state.gamePlay.tiles.length,
 	}),
 	// mapDispatchToProps
 	{ onReset }

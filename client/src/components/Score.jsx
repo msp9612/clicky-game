@@ -34,7 +34,7 @@ export default connect(
 	state => ({
 		score: state.gamePlay.score,
 		topScore: state.gamePlay.topScore,
-		tileCount: state.gamePlay.tileSet.tiles.length,
+		tileCount: state.gamePlay.tiles.length,
 	}),
 	// mapDispatchToProps
 	null
